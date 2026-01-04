@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "topic": "SQL",
+        "question": "Which join returns all rows when there is a match in one of the tables?",
+        "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "FULL OUTER JOIN",
+            "RIGHT JOIN"
+        ],
+        "answer": "FULL OUTER JOIN"
+    },
+    {
+        "id": 2,
+        "topic": "OS",
+        "question": "What is a semaphore?",
+        "options": [
+            "A variable",
+            "A process",
+            "A hardware component",
+            "A thread"
+        ],
+        "answer": "A variable"
+    },
+    {
+        "id": 3,
+        "topic": "Coding",
+        "question": "What is the time complexity of searching an element in a balanced Binary Search Tree (BST)?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(1)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "id": 102,
+        "topic": "Coding",
+        "question": "Which data structure is primarily used to implement Recursion?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Linked List",
+            "Heap"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "id": 103,
+        "topic": "Coding",
+        "question": "In C++, what will be the output of: \n`cout << (5 >> 1);`",
+        "options": [
+            "10",
+            "2.5",
+            "2",
+            "5"
+        ],
+        "answer": "2"
+    },
+    {
+        "id": 104,
+        "topic": "Coding",
+        "question": "Which of the following sorting algorithms has the best worst-case time complexity?",
+        "options": [
+            "Bubble Sort",
+            "Selection Sort",
+            "Quick Sort",
+            "Merge Sort"
+        ],
+        "answer": "Merge Sort"
+    },
+    {
+        "id": 105,
+        "topic": "Coding",
+        "question": "What happens if you free a pointer two times in C?",
+        "options": [
+            "Memory leaks",
+            "Program crashes (Double Free Error)",
+            "Nothing happens",
+            "Pointer becomes NULL"
+        ],
+        "answer": "Program crashes (Double Free Error)"
+    },
+    {
+        "id": 106,
+        "topic": "Coding",
+        "question": "A Linked List is given. How can you detect if there is a cycle in it?",
+        "options": [
+            "Binary Search",
+            "Two Pointers (Floyd's Cycle)",
+            "Recursion",
+            "Backtracking"
+        ],
+        "answer": "Two Pointers (Floyd's Cycle)"
+    },
+    {
+        "id": 107,
+        "topic": "Coding",
+        "question": "In Java/C++, what is the size of an empty class?",
+        "options": [
+            "0 bytes",
+            "1 byte",
+            "4 bytes",
+            "Depends on Compiler"
+        ],
+        "answer": "1 byte"
+    },
+    {
+        "id": 108,
+        "topic": "Coding",
+        "question": "Which data structure is needed to perform Breadth-First Search (BFS) on a graph?",
+        "options": [
+            "Stack",
+            "Queue",
+            "Array",
+            "Priority Queue"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "id": 109,
+        "topic": "Coding",
+        "question": "What is a 'Segmentation Fault' in a program?",
+        "options": [
+            "Syntax Error",
+            "Accessing restricted memory",
+            "Infinite Loop",
+            "Division by Zero"
+        ],
+        "answer": "Accessing restricted memory"
+    },
+    {
+        "id": 110,
+        "topic": "Coding",
+        "question": "In Python, which of the following is an immutable data type?",
+        "options": [
+            "List",
+            "Dictionary",
+            "Set",
+            "Tuple"
+        ],
+        "answer": "Tuple"
+    }
+]

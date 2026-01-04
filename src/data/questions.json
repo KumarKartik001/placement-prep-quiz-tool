@@ -1,32 +1,92 @@
 [
     {
-        "id": 1,
-        "topic": "SQL",
-        "question": "Which join returns all rows when there is a match in one of the tables?",
+        "id": 201,
+        "topic": "DSA",
+        "question": "Which data structure is best for implementing LRU Cache?",
         "options": [
-            "INNER JOIN",
-            "LEFT JOIN",
-            "FULL OUTER JOIN",
-            "RIGHT JOIN"
+            "Array",
+            "Queue",
+            "HashMap + Doubly Linked List",
+            "Stack"
         ],
-        "answer": "FULL OUTER JOIN"
+        "answer": "HashMap + Doubly Linked List"
     },
     {
-        "id": 2,
-        "topic": "OS",
-        "question": "What is a semaphore?",
+        "id": 202,
+        "topic": "DSA",
+        "question": "What is the time complexity of Heap Sort in worst case?",
         "options": [
-            "A variable",
-            "A process",
-            "A hardware component",
-            "A thread"
+            "O(n)",
+            "O(n log n)",
+            "O(log n)",
+            "O(n^2)"
         ],
-        "answer": "A variable"
+        "answer": "O(n log n)"
     },
     {
-        "id": 3,
-        "topic": "Coding",
-        "question": "What is the time complexity of searching an element in a balanced Binary Search Tree (BST)?",
+        "id": 203,
+        "topic": "DSA",
+        "question": "Which traversal of BST gives sorted output?",
+        "options": [
+            "Preorder",
+            "Postorder",
+            "Inorder",
+            "Level Order"
+        ],
+        "answer": "Inorder"
+    },
+    {
+        "id": 204,
+        "topic": "DSA",
+        "question": "Which algorithm is used to detect cycle in a directed graph?",
+        "options": [
+            "DFS",
+            "BFS",
+            "Topological Sort",
+            "Binary Search"
+        ],
+        "answer": "DFS"
+    },
+    {
+        "id": 205,
+        "topic": "DSA",
+        "question": "What is the auxiliary space of Merge Sort?",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n log n)"
+        ],
+        "answer": "O(n)"
+    },
+    {
+        "id": 206,
+        "topic": "DSA",
+        "question": "Which data structure supports FIFO?",
+        "options": [
+            "Stack",
+            "Queue",
+            "Tree",
+            "Graph"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "id": 207,
+        "topic": "DSA",
+        "question": "Which algorithm finds shortest path in weighted graph without negative weights?",
+        "options": [
+            "DFS",
+            "BFS",
+            "Dijkstra",
+            "Prim"
+        ],
+        "answer": "Dijkstra"
+    },
+    {
+        "id": 208,
+        "topic": "DSA",
+        "question": "What is the height of a balanced BST with n nodes?",
         "options": [
             "O(n)",
             "O(log n)",
@@ -36,111 +96,2187 @@
         "answer": "O(log n)"
     },
     {
-        "id": 102,
-        "topic": "Coding",
-        "question": "Which data structure is primarily used to implement Recursion?",
+        "id": 209,
+        "topic": "DSA",
+        "question": "Which technique is used in Quick Sort?",
         "options": [
-            "Queue",
-            "Stack",
-            "Linked List",
-            "Heap"
-        ],
-        "answer": "Stack"
-    },
-    {
-        "id": 103,
-        "topic": "Coding",
-        "question": "In C++, what will be the output of: cout << (5 >> 1);",
-        "options": [
-            "10",
-            "2.5",
-            "2",
-            "5"
-        ],
-        "answer": "2"
-    },
-    {
-        "id": 104,
-        "topic": "Coding",
-        "question": "Which of the following sorting algorithms has the best worst-case time complexity?",
-        "options": [
-            "Bubble Sort",
-            "Selection Sort",
-            "Quick Sort",
-            "Merge Sort"
-        ],
-        "answer": "Merge Sort"
-    },
-    {
-        "id": 105,
-        "topic": "Coding",
-        "question": "What happens if you free a pointer two times in C?",
-        "options": [
-            "Memory leaks",
-            "Program crashes (Double Free Error)",
-            "Nothing happens",
-            "Pointer becomes NULL"
-        ],
-        "answer": "Program crashes (Double Free Error)"
-    },
-    {
-        "id": 106,
-        "topic": "Coding",
-        "question": "A Linked List is given. How can you detect if there is a cycle in it?",
-        "options": [
-            "Binary Search",
-            "Two Pointers (Floyd's Cycle)",
-            "Recursion",
+            "Dynamic Programming",
+            "Greedy",
+            "Divide and Conquer",
             "Backtracking"
         ],
-        "answer": "Two Pointers (Floyd's Cycle)"
+        "answer": "Divide and Conquer"
     },
     {
-        "id": 107,
-        "topic": "Coding",
-        "question": "In Java/C++, what is the size of an empty class?",
-        "options": [
-            "0 bytes",
-            "1 byte",
-            "4 bytes",
-            "Depends on Compiler"
-        ],
-        "answer": "1 byte"
-    },
-    {
-        "id": 108,
-        "topic": "Coding",
-        "question": "Which data structure is needed to perform Breadth-First Search (BFS) on a graph?",
+        "id": 210,
+        "topic": "DSA",
+        "question": "Which structure is used for BFS traversal?",
         "options": [
             "Stack",
             "Queue",
-            "Array",
-            "Priority Queue"
+            "Heap",
+            "Set"
         ],
         "answer": "Queue"
     },
     {
-        "id": 109,
-        "topic": "Coding",
-        "question": "What is a 'Segmentation Fault' in a program?",
+        "id": 301,
+        "topic": "SQL",
+        "question": "Which SQL clause is used to filter groups?",
         "options": [
-            "Syntax Error",
-            "Accessing restricted memory",
-            "Infinite Loop",
-            "Division by Zero"
+            "WHERE",
+            "GROUP BY",
+            "HAVING",
+            "ORDER BY"
         ],
-        "answer": "Accessing restricted memory"
+        "answer": "HAVING"
     },
     {
-        "id": 110,
-        "topic": "Coding",
-        "question": "In Python, which of the following is an immutable data type?",
+        "id": 302,
+        "topic": "SQL",
+        "question": "Which key uniquely identifies a record?",
+        "options": [
+            "Foreign Key",
+            "Candidate Key",
+            "Primary Key",
+            "Composite Key"
+        ],
+        "answer": "Primary Key"
+    },
+    {
+        "id": 303,
+        "topic": "SQL",
+        "question": "Which join returns matching rows only?",
+        "options": [
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "FULL JOIN",
+            "INNER JOIN"
+        ],
+        "answer": "INNER JOIN"
+    },
+    {
+        "id": 304,
+        "topic": "SQL",
+        "question": "Which command removes all records but keeps structure?",
+        "options": [
+            "DELETE",
+            "DROP",
+            "TRUNCATE",
+            "REMOVE"
+        ],
+        "answer": "TRUNCATE"
+    },
+    {
+        "id": 305,
+        "topic": "SQL",
+        "question": "Which normal form removes transitive dependency?",
+        "options": [
+            "1NF",
+            "2NF",
+            "3NF",
+            "BCNF"
+        ],
+        "answer": "3NF"
+    },
+    {
+        "id": 306,
+        "topic": "SQL",
+        "question": "Which index improves SELECT performance?",
+        "options": [
+            "Clustered",
+            "Non-clustered",
+            "Both",
+            "None"
+        ],
+        "answer": "Both"
+    },
+    {
+        "id": 307,
+        "topic": "SQL",
+        "question": "Which constraint ensures unique values?",
+        "options": [
+            "CHECK",
+            "UNIQUE",
+            "NOT NULL",
+            "DEFAULT"
+        ],
+        "answer": "UNIQUE"
+    },
+    {
+        "id": 308,
+        "topic": "SQL",
+        "question": "Which function returns number of rows?",
+        "options": [
+            "SUM()",
+            "COUNT()",
+            "AVG()",
+            "MAX()"
+        ],
+        "answer": "COUNT()"
+    },
+    {
+        "id": 309,
+        "topic": "SQL",
+        "question": "Which command is DDL?",
+        "options": [
+            "INSERT",
+            "UPDATE",
+            "CREATE",
+            "SELECT"
+        ],
+        "answer": "CREATE"
+    },
+    {
+        "id": 310,
+        "topic": "SQL",
+        "question": "Which join returns all records from both tables?",
+        "options": [
+            "INNER",
+            "LEFT",
+            "RIGHT",
+            "FULL OUTER"
+        ],
+        "answer": "FULL OUTER"
+    },
+    {
+        "id": 401,
+        "topic": "OS",
+        "question": "Which scheduling algorithm may cause starvation?",
+        "options": [
+            "FCFS",
+            "Round Robin",
+            "Priority Scheduling",
+            "FIFO"
+        ],
+        "answer": "Priority Scheduling"
+    },
+    {
+        "id": 402,
+        "topic": "OS",
+        "question": "What is a deadlock?",
+        "options": [
+            "Infinite loop",
+            "Processes waiting indefinitely",
+            "Memory leak",
+            "CPU idle state"
+        ],
+        "answer": "Processes waiting indefinitely"
+    },
+    {
+        "id": 403,
+        "topic": "OS",
+        "question": "Which memory allocation suffers from external fragmentation?",
+        "options": [
+            "Paging",
+            "Segmentation",
+            "Virtual Memory",
+            "Cache"
+        ],
+        "answer": "Segmentation"
+    },
+    {
+        "id": 404,
+        "topic": "OS",
+        "question": "What is a semaphore used for?",
+        "options": [
+            "Memory management",
+            "Process synchronization",
+            "Scheduling",
+            "Paging"
+        ],
+        "answer": "Process synchronization"
+    },
+    {
+        "id": 405,
+        "topic": "OS",
+        "question": "Which is NOT a condition for deadlock?",
+        "options": [
+            "Mutual Exclusion",
+            "Hold and Wait",
+            "Preemption",
+            "Circular Wait"
+        ],
+        "answer": "Preemption"
+    },
+    {
+        "id": 406,
+        "topic": "OS",
+        "question": "Which page replacement algorithm is optimal?",
+        "options": [
+            "FIFO",
+            "LRU",
+            "Optimal",
+            "Clock"
+        ],
+        "answer": "Optimal"
+    },
+    {
+        "id": 407,
+        "topic": "OS",
+        "question": "What is context switching?",
+        "options": [
+            "Changing process state",
+            "Switching CPU between processes",
+            "Memory swapping",
+            "I/O operation"
+        ],
+        "answer": "Switching CPU between processes"
+    },
+    {
+        "id": 408,
+        "topic": "OS",
+        "question": "Which OS component handles memory?",
+        "options": [
+            "Shell",
+            "Kernel",
+            "Compiler",
+            "Loader"
+        ],
+        "answer": "Kernel"
+    },
+    {
+        "id": 409,
+        "topic": "OS",
+        "question": "Which scheduling algorithm is preemptive?",
+        "options": [
+            "FCFS",
+            "SJF",
+            "Round Robin",
+            "Priority (Non-preemptive)"
+        ],
+        "answer": "Round Robin"
+    },
+    {
+        "id": 410,
+        "topic": "OS",
+        "question": "Which system call creates a new process?",
+        "options": [
+            "exec()",
+            "fork()",
+            "wait()",
+            "exit()"
+        ],
+        "answer": "fork()"
+    },
+    {
+        "id": 501,
+        "topic": "Computer Network",
+        "question": "Which layer of OSI model is responsible for end-to-end communication?",
+        "options": [
+            "Network",
+            "Transport",
+            "Session",
+            "Application"
+        ],
+        "answer": "Transport"
+    },
+    {
+        "id": 502,
+        "topic": "Computer Network",
+        "question": "Which protocol is connection-oriented?",
+        "options": [
+            "UDP",
+            "IP",
+            "TCP",
+            "ICMP"
+        ],
+        "answer": "TCP"
+    },
+    {
+        "id": 503,
+        "topic": "Computer Network",
+        "question": "What is the default port of HTTP?",
+        "options": [
+            "21",
+            "80",
+            "443",
+            "25"
+        ],
+        "answer": "80"
+    },
+    {
+        "id": 504,
+        "topic": "Computer Network",
+        "question": "Which device works at Network layer?",
+        "options": [
+            "Hub",
+            "Switch",
+            "Router",
+            "Repeater"
+        ],
+        "answer": "Router"
+    },
+    {
+        "id": 505,
+        "topic": "Computer Network",
+        "question": "Which protocol is used for secure communication over internet?",
+        "options": [
+            "HTTP",
+            "FTP",
+            "HTTPS",
+            "SMTP"
+        ],
+        "answer": "HTTPS"
+    },
+    {
+        "id": 506,
+        "topic": "Computer Network",
+        "question": "What is latency?",
+        "options": [
+            "Data size",
+            "Delay in transmission",
+            "Bandwidth",
+            "Packet loss"
+        ],
+        "answer": "Delay in transmission"
+    },
+    {
+        "id": 507,
+        "topic": "Computer Network",
+        "question": "Which topology has single point of failure?",
+        "options": [
+            "Mesh",
+            "Star",
+            "Ring",
+            "Bus"
+        ],
+        "answer": "Star"
+    },
+    {
+        "id": 508,
+        "topic": "Computer Network",
+        "question": "Which protocol resolves IP to MAC address?",
+        "options": [
+            "RARP",
+            "DNS",
+            "ARP",
+            "ICMP"
+        ],
+        "answer": "ARP"
+    },
+    {
+        "id": 509,
+        "topic": "Computer Network",
+        "question": "Which layer does encryption belong to?",
+        "options": [
+            "Transport",
+            "Session",
+            "Presentation",
+            "Application"
+        ],
+        "answer": "Presentation"
+    },
+    {
+        "id": 510,
+        "topic": "Computer Network",
+        "question": "What is bandwidth?",
+        "options": [
+            "Speed",
+            "Delay",
+            "Data loss",
+            "Security"
+        ],
+        "answer": "Speed"
+    },
+    {
+        "id": 511,
+        "topic": "Computer Network",
+        "question": "Which protocol is used to send emails?",
+        "options": [
+            "FTP",
+            "SMTP",
+            "POP3",
+            "IMAP"
+        ],
+        "answer": "SMTP"
+    },
+    {
+        "id": 512,
+        "topic": "Computer Network",
+        "question": "Which address is globally unique?",
+        "options": [
+            "IP",
+            "MAC",
+            "Port",
+            "Subnet"
+        ],
+        "answer": "MAC"
+    },
+    {
+        "id": 513,
+        "topic": "Computer Network",
+        "question": "What is subnetting used for?",
+        "options": [
+            "Increase IPs",
+            "Reduce traffic",
+            "Security only",
+            "Routing"
+        ],
+        "answer": "Reduce traffic"
+    },
+    {
+        "id": 514,
+        "topic": "Computer Network",
+        "question": "Which layer handles error detection?",
+        "options": [
+            "Data Link",
+            "Network",
+            "Transport",
+            "Session"
+        ],
+        "answer": "Data Link"
+    },
+    {
+        "id": 515,
+        "topic": "Computer Network",
+        "question": "Which protocol is stateless?",
+        "options": [
+            "TCP",
+            "UDP",
+            "FTP",
+            "SMTP"
+        ],
+        "answer": "UDP"
+    },
+    {
+        "id": 516,
+        "topic": "Computer Network",
+        "question": "Which device breaks collision domain?",
+        "options": [
+            "Hub",
+            "Repeater",
+            "Switch",
+            "Cable"
+        ],
+        "answer": "Switch"
+    },
+    {
+        "id": 517,
+        "topic": "Computer Network",
+        "question": "What is DNS used for?",
+        "options": [
+            "Routing",
+            "Name resolution",
+            "Encryption",
+            "Authentication"
+        ],
+        "answer": "Name resolution"
+    },
+    {
+        "id": 518,
+        "topic": "Computer Network",
+        "question": "Which IP class supports multicast?",
+        "options": [
+            "Class A",
+            "Class B",
+            "Class C",
+            "Class D"
+        ],
+        "answer": "Class D"
+    },
+    {
+        "id": 519,
+        "topic": "Computer Network",
+        "question": "Which protocol is used for file transfer?",
+        "options": [
+            "SMTP",
+            "FTP",
+            "HTTP",
+            "SNMP"
+        ],
+        "answer": "FTP"
+    },
+    {
+        "id": 520,
+        "topic": "Computer Network",
+        "question": "What is a firewall?",
+        "options": [
+            "Antivirus",
+            "Security device",
+            "Protocol",
+            "Server"
+        ],
+        "answer": "Security device"
+    },
+    {
+        "id": 601,
+        "topic": "DBMS",
+        "question": "What is a transaction?",
+        "options": [
+            "Query",
+            "Set of operations",
+            "Table",
+            "Index"
+        ],
+        "answer": "Set of operations"
+    },
+    {
+        "id": 602,
+        "topic": "DBMS",
+        "question": "Which property ensures all or nothing?",
+        "options": [
+            "Consistency",
+            "Atomicity",
+            "Isolation",
+            "Durability"
+        ],
+        "answer": "Atomicity"
+    },
+    {
+        "id": 603,
+        "topic": "DBMS",
+        "question": "Which key can have NULL values?",
+        "options": [
+            "Primary",
+            "Candidate",
+            "Foreign",
+            "Super"
+        ],
+        "answer": "Foreign"
+    },
+    {
+        "id": 604,
+        "topic": "DBMS",
+        "question": "Which anomaly is solved by normalization?",
+        "options": [
+            "Insertion",
+            "Deletion",
+            "Updation",
+            "All"
+        ],
+        "answer": "All"
+    },
+    {
+        "id": 605,
+        "topic": "DBMS",
+        "question": "What is index used for?",
+        "options": [
+            "Security",
+            "Faster retrieval",
+            "Backup",
+            "Concurrency"
+        ],
+        "answer": "Faster retrieval"
+    },
+    {
+        "id": 606,
+        "topic": "DBMS",
+        "question": "Which isolation level is highest?",
+        "options": [
+            "Read Uncommitted",
+            "Read Committed",
+            "Repeatable Read",
+            "Serializable"
+        ],
+        "answer": "Serializable"
+    },
+    {
+        "id": 607,
+        "topic": "DBMS",
+        "question": "Which is not a DBMS language?",
+        "options": [
+            "DDL",
+            "DML",
+            "DCL",
+            "HTML"
+        ],
+        "answer": "HTML"
+    },
+    {
+        "id": 608,
+        "topic": "DBMS",
+        "question": "Which join gives Cartesian product?",
+        "options": [
+            "Natural",
+            "Inner",
+            "Cross",
+            "Outer"
+        ],
+        "answer": "Cross"
+    },
+    {
+        "id": 609,
+        "topic": "DBMS",
+        "question": "What is deadlock?",
+        "options": [
+            "Crash",
+            "Infinite wait",
+            "Data loss",
+            "Index issue"
+        ],
+        "answer": "Infinite wait"
+    },
+    {
+        "id": 610,
+        "topic": "DBMS",
+        "question": "Which command is used to remove a table?",
+        "options": [
+            "DELETE",
+            "DROP",
+            "TRUNCATE",
+            "REMOVE"
+        ],
+        "answer": "DROP"
+    },
+    {
+        "id": 611,
+        "topic": "DBMS",
+        "question": "What is view?",
+        "options": [
+            "Physical table",
+            "Virtual table",
+            "Index",
+            "Trigger"
+        ],
+        "answer": "Virtual table"
+    },
+    {
+        "id": 612,
+        "topic": "DBMS",
+        "question": "Which constraint enforces referential integrity?",
+        "options": [
+            "PRIMARY",
+            "UNIQUE",
+            "FOREIGN",
+            "CHECK"
+        ],
+        "answer": "FOREIGN"
+    },
+    {
+        "id": 613,
+        "topic": "DBMS",
+        "question": "Which normal form removes partial dependency?",
+        "options": [
+            "1NF",
+            "2NF",
+            "3NF",
+            "BCNF"
+        ],
+        "answer": "2NF"
+    },
+    {
+        "id": 614,
+        "topic": "DBMS",
+        "question": "Which schedule is serializable?",
+        "options": [
+            "Conflict",
+            "View",
+            "Both",
+            "None"
+        ],
+        "answer": "Both"
+    },
+    {
+        "id": 615,
+        "topic": "DBMS",
+        "question": "Which storage is volatile?",
+        "options": [
+            "SSD",
+            "HDD",
+            "RAM",
+            "ROM"
+        ],
+        "answer": "RAM"
+    },
+    {
+        "id": 616,
+        "topic": "DBMS",
+        "question": "Which file organization is fastest?",
+        "options": [
+            "Sequential",
+            "Heap",
+            "Hash",
+            "Indexed"
+        ],
+        "answer": "Hash"
+    },
+    {
+        "id": 617,
+        "topic": "DBMS",
+        "question": "What is cursor?",
+        "options": [
+            "Pointer",
+            "Loop",
+            "Temporary table",
+            "Index"
+        ],
+        "answer": "Pointer"
+    },
+    {
+        "id": 618,
+        "topic": "DBMS",
+        "question": "Which command is DML?",
+        "options": [
+            "CREATE",
+            "DROP",
+            "INSERT",
+            "ALTER"
+        ],
+        "answer": "INSERT"
+    },
+    {
+        "id": 619,
+        "topic": "DBMS",
+        "question": "What is metadata?",
+        "options": [
+            "User data",
+            "Data about data",
+            "Index",
+            "Backup"
+        ],
+        "answer": "Data about data"
+    },
+    {
+        "id": 620,
+        "topic": "DBMS",
+        "question": "Which lock allows multiple reads?",
+        "options": [
+            "Exclusive",
+            "Shared",
+            "Binary",
+            "Dead"
+        ],
+        "answer": "Shared"
+    },
+    {
+        "id": 701,
+        "topic": "Python",
+        "question": "Which data type is immutable?",
         "options": [
             "List",
-            "Dictionary",
             "Set",
-            "Tuple"
+            "Tuple",
+            "Dictionary"
         ],
         "answer": "Tuple"
+    },
+    {
+        "id": 702,
+        "topic": "Python",
+        "question": "What does len() return?",
+        "options": [
+            "Type",
+            "Index",
+            "Length",
+            "Value"
+        ],
+        "answer": "Length"
+    },
+    {
+        "id": 703,
+        "topic": "Python",
+        "question": "Which keyword is used for function?",
+        "options": [
+            "def",
+            "func",
+            "define",
+            "lambda"
+        ],
+        "answer": "def"
+    },
+    {
+        "id": 704,
+        "topic": "Python",
+        "question": "What is PEP 8?",
+        "options": [
+            "Library",
+            "Compiler",
+            "Style guide",
+            "IDE"
+        ],
+        "answer": "Style guide"
+    },
+    {
+        "id": 705,
+        "topic": "Python",
+        "question": "Which is mutable?",
+        "options": [
+            "String",
+            "Tuple",
+            "List",
+            "Int"
+        ],
+        "answer": "List"
+    },
+    {
+        "id": 706,
+        "topic": "Python",
+        "question": "What does append() do?",
+        "options": [
+            "Add at start",
+            "Add at end",
+            "Delete",
+            "Sort"
+        ],
+        "answer": "Add at end"
+    },
+    {
+        "id": 707,
+        "topic": "Python",
+        "question": "Which keyword handles exceptions?",
+        "options": [
+            "try",
+            "catch",
+            "handle",
+            "error"
+        ],
+        "answer": "try"
+    },
+    {
+        "id": 708,
+        "topic": "Python",
+        "question": "What is output of bool(0)?",
+        "options": [
+            "True",
+            "False",
+            "0",
+            "Error"
+        ],
+        "answer": "False"
+    },
+    {
+        "id": 709,
+        "topic": "Python",
+        "question": "Which is used for inheritance?",
+        "options": [
+            "extends",
+            "inherits",
+            "()",
+            "class"
+        ],
+        "answer": "class"
+    },
+    {
+        "id": 710,
+        "topic": "Python",
+        "question": "Which module supports regex?",
+        "options": [
+            "math",
+            "re",
+            "sys",
+            "os"
+        ],
+        "answer": "re"
+    },
+    {
+        "id": 711,
+        "topic": "Python",
+        "question": "What is list comprehension?",
+        "options": [
+            "Loop",
+            "Short syntax",
+            "Function",
+            "Class"
+        ],
+        "answer": "Short syntax"
+    },
+    {
+        "id": 712,
+        "topic": "Python",
+        "question": "Which operator is floor division?",
+        "options": [
+            "/",
+            "//",
+            "%",
+            "**"
+        ],
+        "answer": "//"
+    },
+    {
+        "id": 713,
+        "topic": "Python",
+        "question": "What is lambda?",
+        "options": [
+            "Loop",
+            "Anonymous function",
+            "Class",
+            "Decorator"
+        ],
+        "answer": "Anonymous function"
+    },
+    {
+        "id": 714,
+        "topic": "Python",
+        "question": "Which keyword stops loop?",
+        "options": [
+            "stop",
+            "exit",
+            "break",
+            "end"
+        ],
+        "answer": "break"
+    },
+    {
+        "id": 715,
+        "topic": "Python",
+        "question": "Which function gives ASCII value?",
+        "options": [
+            "ascii()",
+            "ord()",
+            "chr()",
+            "code()"
+        ],
+        "answer": "ord()"
+    },
+    {
+        "id": 716,
+        "topic": "Python",
+        "question": "What is __init__?",
+        "options": [
+            "Destructor",
+            "Constructor",
+            "Function",
+            "Variable"
+        ],
+        "answer": "Constructor"
+    },
+    {
+        "id": 717,
+        "topic": "Python",
+        "question": "Which library is used for arrays?",
+        "options": [
+            "numpy",
+            "pandas",
+            "math",
+            "os"
+        ],
+        "answer": "numpy"
+    },
+    {
+        "id": 718,
+        "topic": "Python",
+        "question": "What does pass do?",
+        "options": [
+            "Skip",
+            "Error",
+            "Exit",
+            "Return"
+        ],
+        "answer": "Skip"
+    },
+    {
+        "id": 719,
+        "topic": "Python",
+        "question": "Which file extension for Python?",
+        "options": [
+            ".java",
+            ".py",
+            ".cpp",
+            ".js"
+        ],
+        "answer": ".py"
+    },
+    {
+        "id": 720,
+        "topic": "Python",
+        "question": "Which loop runs fixed times?",
+        "options": [
+            "while",
+            "for",
+            "do-while",
+            "foreach"
+        ],
+        "answer": "for"
+    },
+    {
+        "id": 801,
+        "topic": "OOPS",
+        "question": "What is encapsulation?",
+        "options": [
+            "Binding data and methods",
+            "Inheritance",
+            "Code reusability",
+            "Multiple inheritance"
+        ],
+        "answer": "Binding data and methods"
+    },
+    {
+        "id": 802,
+        "topic": "OOPS",
+        "question": "Which OOPS concept supports code reusability?",
+        "options": [
+            "Encapsulation",
+            "Polymorphism",
+            "Inheritance",
+            "Abstraction"
+        ],
+        "answer": "Inheritance"
+    },
+    {
+        "id": 803,
+        "topic": "OOPS",
+        "question": "What is polymorphism?",
+        "options": [
+            "One name many forms",
+            "Code hiding",
+            "Data binding",
+            "Object creation"
+        ],
+        "answer": "One name many forms"
+    },
+    {
+        "id": 804,
+        "topic": "OOPS",
+        "question": "Which keyword is used to achieve abstraction in Java?",
+        "options": [
+            "class",
+            "abstract",
+            "interface",
+            "extends"
+        ],
+        "answer": "abstract"
+    },
+    {
+        "id": 805,
+        "topic": "OOPS",
+        "question": "Which type of inheritance is not supported in Java using classes?",
+        "options": [
+            "Single",
+            "Multilevel",
+            "Hierarchical",
+            "Multiple"
+        ],
+        "answer": "Multiple"
+    },
+    {
+        "id": 806,
+        "topic": "OOPS",
+        "question": "What is constructor?",
+        "options": [
+            "Method",
+            "Variable",
+            "Special method",
+            "Object"
+        ],
+        "answer": "Special method"
+    },
+    {
+        "id": 807,
+        "topic": "OOPS",
+        "question": "Which concept hides implementation details?",
+        "options": [
+            "Polymorphism",
+            "Inheritance",
+            "Encapsulation",
+            "Abstraction"
+        ],
+        "answer": "Abstraction"
+    },
+    {
+        "id": 808,
+        "topic": "OOPS",
+        "question": "What is method overriding?",
+        "options": [
+            "Same method name different class",
+            "Same method different params",
+            "Different name same class",
+            "None"
+        ],
+        "answer": "Same method name different class"
+    },
+    {
+        "id": 809,
+        "topic": "OOPS",
+        "question": "Which keyword prevents inheritance?",
+        "options": [
+            "final",
+            "static",
+            "private",
+            "protected"
+        ],
+        "answer": "final"
+    },
+    {
+        "id": 810,
+        "topic": "OOPS",
+        "question": "Which binding occurs at runtime?",
+        "options": [
+            "Static",
+            "Dynamic",
+            "Early",
+            "Compile-time"
+        ],
+        "answer": "Dynamic"
+    },
+    {
+        "id": 811,
+        "topic": "OOPS",
+        "question": "What is object?",
+        "options": [
+            "Class instance",
+            "Method",
+            "Variable",
+            "Package"
+        ],
+        "answer": "Class instance"
+    },
+    {
+        "id": 812,
+        "topic": "OOPS",
+        "question": "Which feature allows same function name?",
+        "options": [
+            "Encapsulation",
+            "Abstraction",
+            "Polymorphism",
+            "Inheritance"
+        ],
+        "answer": "Polymorphism"
+    },
+    {
+        "id": 813,
+        "topic": "OOPS",
+        "question": "What is interface?",
+        "options": [
+            "Abstract class",
+            "Blueprint",
+            "Concrete class",
+            "Object"
+        ],
+        "answer": "Blueprint"
+    },
+    {
+        "id": 814,
+        "topic": "OOPS",
+        "question": "Which access modifier is most restrictive?",
+        "options": [
+            "public",
+            "protected",
+            "default",
+            "private"
+        ],
+        "answer": "private"
+    },
+    {
+        "id": 815,
+        "topic": "OOPS",
+        "question": "What is method overloading?",
+        "options": [
+            "Same method diff params",
+            "Same method diff class",
+            "Override",
+            "None"
+        ],
+        "answer": "Same method diff params"
+    },
+    {
+        "id": 816,
+        "topic": "OOPS",
+        "question": "Which keyword refers current object?",
+        "options": [
+            "this",
+            "super",
+            "self",
+            "object"
+        ],
+        "answer": "this"
+    },
+    {
+        "id": 817,
+        "topic": "OOPS",
+        "question": "Which supports loose coupling?",
+        "options": [
+            "Inheritance",
+            "Encapsulation",
+            "Abstraction",
+            "Polymorphism"
+        ],
+        "answer": "Abstraction"
+    },
+    {
+        "id": 818,
+        "topic": "OOPS",
+        "question": "Which class cannot be instantiated?",
+        "options": [
+            "Concrete",
+            "Normal",
+            "Abstract",
+            "Derived"
+        ],
+        "answer": "Abstract"
+    },
+    {
+        "id": 819,
+        "topic": "OOPS",
+        "question": "Which concept improves security?",
+        "options": [
+            "Polymorphism",
+            "Inheritance",
+            "Encapsulation",
+            "Overloading"
+        ],
+        "answer": "Encapsulation"
+    },
+    {
+        "id": 820,
+        "topic": "OOPS",
+        "question": "Which keyword is used to inherit class in Java?",
+        "options": [
+            "implements",
+            "extends",
+            "inherits",
+            "using"
+        ],
+        "answer": "extends"
+    },
+    {
+        "id": 901,
+        "topic": "Aptitude",
+        "question": "What is 25% of 200?",
+        "options": [
+            "25",
+            "50",
+            "75",
+            "100"
+        ],
+        "answer": "50"
+    },
+    {
+        "id": 902,
+        "topic": "Aptitude",
+        "question": "If A is brother of B and B is sister of C, A is ___ of C.",
+        "options": [
+            "Brother",
+            "Sister",
+            "Cousin",
+            "Cannot say"
+        ],
+        "answer": "Brother"
+    },
+    {
+        "id": 903,
+        "topic": "Aptitude",
+        "question": "Average of first 10 natural numbers?",
+        "options": [
+            "4.5",
+            "5",
+            "5.5",
+            "6"
+        ],
+        "answer": "5.5"
+    },
+    {
+        "id": 904,
+        "topic": "Aptitude",
+        "question": "Find next number: 2, 6, 12, 20, ?",
+        "options": [
+            "28",
+            "30",
+            "32",
+            "24"
+        ],
+        "answer": "30"
+    },
+    {
+        "id": 905,
+        "topic": "Aptitude",
+        "question": "If 3x = 27, x = ?",
+        "options": [
+            "6",
+            "9",
+            "3",
+            "12"
+        ],
+        "answer": "9"
+    },
+    {
+        "id": 906,
+        "topic": "Aptitude",
+        "question": "Which is a synonym of 'Rapid'?",
+        "options": [
+            "Slow",
+            "Quick",
+            "Weak",
+            "Late"
+        ],
+        "answer": "Quick"
+    },
+    {
+        "id": 907,
+        "topic": "Aptitude",
+        "question": "A train covers 100 km in 2 hours. Speed?",
+        "options": [
+            "40",
+            "50",
+            "60",
+            "80"
+        ],
+        "answer": "50"
+    },
+    {
+        "id": 908,
+        "topic": "Aptitude",
+        "question": "Find odd one out: Apple, Mango, Banana, Carrot",
+        "options": [
+            "Apple",
+            "Mango",
+            "Banana",
+            "Carrot"
+        ],
+        "answer": "Carrot"
+    },
+    {
+        "id": 909,
+        "topic": "Aptitude",
+        "question": "Simple Interest on 1000 at 10% for 2 years?",
+        "options": [
+            "100",
+            "200",
+            "300",
+            "400"
+        ],
+        "answer": "200"
+    },
+    {
+        "id": 910,
+        "topic": "Aptitude",
+        "question": "Choose correct spelling",
+        "options": [
+            "Enviroment",
+            "Environment",
+            "Enviornment",
+            "Environmant"
+        ],
+        "answer": "Environment"
+    },
+    {
+        "id": 911,
+        "topic": "Aptitude",
+        "question": "If today is Monday, what day after 7 days?",
+        "options": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Friday"
+        ],
+        "answer": "Monday"
+    },
+    {
+        "id": 912,
+        "topic": "Aptitude",
+        "question": "1, 4, 9, 16, ?",
+        "options": [
+            "20",
+            "25",
+            "36",
+            "49"
+        ],
+        "answer": "25"
+    },
+    {
+        "id": 913,
+        "topic": "Aptitude",
+        "question": "Antonym of 'Expand'?",
+        "options": [
+            "Grow",
+            "Increase",
+            "Shrink",
+            "Enlarge"
+        ],
+        "answer": "Shrink"
+    },
+    {
+        "id": 914,
+        "topic": "Aptitude",
+        "question": "Ratio of 2:3 equals?",
+        "options": [
+            "0.5",
+            "0.66",
+            "0.75",
+            "1.5"
+        ],
+        "answer": "0.66"
+    },
+    {
+        "id": 915,
+        "topic": "Aptitude",
+        "question": "If A > B and B > C, then A ___ C",
+        "options": [
+            ">",
+            "<",
+            "=",
+            "!="
+        ],
+        "answer": ">"
+    },
+    {
+        "id": 916,
+        "topic": "Aptitude",
+        "question": "Which number is prime?",
+        "options": [
+            "9",
+            "15",
+            "17",
+            "21"
+        ],
+        "answer": "17"
+    },
+    {
+        "id": 917,
+        "topic": "Aptitude",
+        "question": "Choose correct sentence",
+        "options": [
+            "He go school",
+            "He goes school",
+            "He goes to school",
+            "He going school"
+        ],
+        "answer": "He goes to school"
+    },
+    {
+        "id": 918,
+        "topic": "Aptitude",
+        "question": "Area of square with side 4?",
+        "options": [
+            "8",
+            "12",
+            "16",
+            "20"
+        ],
+        "answer": "16"
+    },
+    {
+        "id": 919,
+        "topic": "Aptitude",
+        "question": "Blood relation: Son of my father?",
+        "options": [
+            "Brother",
+            "Uncle",
+            "Cousin",
+            "Nephew"
+        ],
+        "answer": "Brother"
+    },
+    {
+        "id": 920,
+        "topic": "Aptitude",
+        "question": "If CP = SP, profit is?",
+        "options": [
+            "Loss",
+            "Profit",
+            "Zero",
+            "Negative"
+        ],
+        "answer": "Zero"
+    },
+    {
+        "id": 1001,
+        "topic": "Web",
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+            "<link>",
+            "<a>",
+            "<href>",
+            "<url>"
+        ],
+        "answer": "<a>"
+    },
+    {
+        "id": 1002,
+        "topic": "Web",
+        "question": "Which CSS property controls text size?",
+        "options": [
+            "font-style",
+            "text-size",
+            "font-size",
+            "text-style"
+        ],
+        "answer": "font-size"
+    },
+    {
+        "id": 1003,
+        "topic": "Web",
+        "question": "Which attribute is used to provide unique identity in HTML?",
+        "options": [
+            "class",
+            "id",
+            "name",
+            "key"
+        ],
+        "answer": "id"
+    },
+    {
+        "id": 1004,
+        "topic": "Web",
+        "question": "Which JavaScript keyword declares a variable?",
+        "options": [
+            "int",
+            "var",
+            "define",
+            "let"
+        ],
+        "answer": "let"
+    },
+    {
+        "id": 1005,
+        "topic": "Web",
+        "question": "Which HTML tag is semantic?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<b>"
+        ],
+        "answer": "<section>"
+    },
+    {
+        "id": 1006,
+        "topic": "Web",
+        "question": "What does CSS stand for?",
+        "options": [
+            "Creative Style Sheet",
+            "Cascading Style Sheet",
+            "Computer Style Sheet",
+            "Colorful Style Sheet"
+        ],
+        "answer": "Cascading Style Sheet"
+    },
+    {
+        "id": 1007,
+        "topic": "Web",
+        "question": "Which JS method converts JSON to object?",
+        "options": [
+            "JSON.parse()",
+            "JSON.stringify()",
+            "parseJSON()",
+            "toObject()"
+        ],
+        "answer": "JSON.parse()"
+    },
+    {
+        "id": 1008,
+        "topic": "Web",
+        "question": "Which CSS property makes layout flexible?",
+        "options": [
+            "position",
+            "float",
+            "flex",
+            "display"
+        ],
+        "answer": "display"
+    },
+    {
+        "id": 1009,
+        "topic": "Web",
+        "question": "Which event triggers on button click?",
+        "options": [
+            "onhover",
+            "onclick",
+            "onpress",
+            "onchange"
+        ],
+        "answer": "onclick"
+    },
+    {
+        "id": 1010,
+        "topic": "Web",
+        "question": "Which tag is used for forms?",
+        "options": [
+            "<input>",
+            "<form>",
+            "<label>",
+            "<textarea>"
+        ],
+        "answer": "<form>"
+    },
+    {
+        "id": 1011,
+        "topic": "Web",
+        "question": "Which JS keyword is block scoped?",
+        "options": [
+            "var",
+            "let",
+            "function",
+            "const"
+        ],
+        "answer": "let"
+    },
+    {
+        "id": 1012,
+        "topic": "Web",
+        "question": "Which CSS unit is relative?",
+        "options": [
+            "px",
+            "cm",
+            "%",
+            "mm"
+        ],
+        "answer": "%"
+    },
+    {
+        "id": 1013,
+        "topic": "Web",
+        "question": "Which attribute submits form data?",
+        "options": [
+            "method",
+            "action",
+            "submit",
+            "send"
+        ],
+        "answer": "action"
+    },
+    {
+        "id": 1014,
+        "topic": "Web",
+        "question": "What is DOM?",
+        "options": [
+            "Language",
+            "API",
+            "Document Object Model",
+            "Framework"
+        ],
+        "answer": "Document Object Model"
+    },
+    {
+        "id": 1015,
+        "topic": "Web",
+        "question": "Which tag displays image?",
+        "options": [
+            "<img>",
+            "<image>",
+            "<pic>",
+            "<src>"
+        ],
+        "answer": "<img>"
+    },
+    {
+        "id": 1016,
+        "topic": "Web",
+        "question": "Which JS operator checks value & type?",
+        "options": [
+            "==",
+            "=",
+            "===",
+            "!="
+        ],
+        "answer": "==="
+    },
+    {
+        "id": 1017,
+        "topic": "Web",
+        "question": "Which CSS property hides element?",
+        "options": [
+            "display:none",
+            "visibility:show",
+            "opacity:1",
+            "hidden"
+        ],
+        "answer": "display:none"
+    },
+    {
+        "id": 1018,
+        "topic": "Web",
+        "question": "Which HTML tag is self closing?",
+        "options": [
+            "<div>",
+            "<p>",
+            "<img>",
+            "<section>"
+        ],
+        "answer": "<img>"
+    },
+    {
+        "id": 1019,
+        "topic": "Web",
+        "question": "Which JS function prints output?",
+        "options": [
+            "print()",
+            "log()",
+            "console.log()",
+            "write()"
+        ],
+        "answer": "console.log()"
+    },
+    {
+        "id": 1020,
+        "topic": "Web",
+        "question": "Which HTTP method is used to fetch data?",
+        "options": [
+            "POST",
+            "PUT",
+            "GET",
+            "DELETE"
+        ],
+        "answer": "GET"
+    },
+    {
+        "id": 1101,
+        "topic": "System Design",
+        "question": "What is scalability?",
+        "options": [
+            "Security",
+            "Ability to handle growth",
+            "Speed",
+            "Availability"
+        ],
+        "answer": "Ability to handle growth"
+    },
+    {
+        "id": 1102,
+        "topic": "System Design",
+        "question": "Which is horizontal scaling?",
+        "options": [
+            "Adding CPU",
+            "Adding RAM",
+            "Adding servers",
+            "Overclocking"
+        ],
+        "answer": "Adding servers"
+    },
+    {
+        "id": 1103,
+        "topic": "System Design",
+        "question": "What is load balancer used for?",
+        "options": [
+            "Store data",
+            "Distribute traffic",
+            "Encrypt data",
+            "Monitor logs"
+        ],
+        "answer": "Distribute traffic"
+    },
+    {
+        "id": 1104,
+        "topic": "System Design",
+        "question": "Which database is NoSQL?",
+        "options": [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "Oracle"
+        ],
+        "answer": "MongoDB"
+    },
+    {
+        "id": 1105,
+        "topic": "System Design",
+        "question": "What is cache used for?",
+        "options": [
+            "Backup",
+            "Security",
+            "Faster access",
+            "Storage"
+        ],
+        "answer": "Faster access"
+    },
+    {
+        "id": 1106,
+        "topic": "System Design",
+        "question": "Which cache eviction policy removes least used data?",
+        "options": [
+            "FIFO",
+            "LIFO",
+            "LRU",
+            "Random"
+        ],
+        "answer": "LRU"
+    },
+    {
+        "id": 1107,
+        "topic": "System Design",
+        "question": "What is API?",
+        "options": [
+            "Database",
+            "Interface",
+            "Protocol",
+            "Server"
+        ],
+        "answer": "Interface"
+    },
+    {
+        "id": 1108,
+        "topic": "System Design",
+        "question": "Which improves availability?",
+        "options": [
+            "Single server",
+            "Replication",
+            "Caching",
+            "Compression"
+        ],
+        "answer": "Replication"
+    },
+    {
+        "id": 1109,
+        "topic": "System Design",
+        "question": "What is microservices?",
+        "options": [
+            "Single codebase",
+            "Monolith",
+            "Small independent services",
+            "Library"
+        ],
+        "answer": "Small independent services"
+    },
+    {
+        "id": 1110,
+        "topic": "System Design",
+        "question": "Which is stateless protocol?",
+        "options": [
+            "TCP",
+            "HTTP",
+            "FTP",
+            "SMTP"
+        ],
+        "answer": "HTTP"
+    },
+    {
+        "id": 1111,
+        "topic": "System Design",
+        "question": "What is CDN?",
+        "options": [
+            "Database",
+            "Cache network",
+            "Server",
+            "Firewall"
+        ],
+        "answer": "Cache network"
+    },
+    {
+        "id": 1112,
+        "topic": "System Design",
+        "question": "Which handles async tasks?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Array",
+            "Set"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "id": 1113,
+        "topic": "System Design",
+        "question": "What is sharding?",
+        "options": [
+            "Replication",
+            "Partitioning",
+            "Caching",
+            "Indexing"
+        ],
+        "answer": "Partitioning"
+    },
+    {
+        "id": 1114,
+        "topic": "System Design",
+        "question": "Which ensures fault tolerance?",
+        "options": [
+            "Single instance",
+            "Backup",
+            "Redundancy",
+            "Compression"
+        ],
+        "answer": "Redundancy"
+    },
+    {
+        "id": 1115,
+        "topic": "System Design",
+        "question": "Which is write-heavy database?",
+        "options": [
+            "Redis",
+            "MongoDB",
+            "Cassandra",
+            "MySQL"
+        ],
+        "answer": "Cassandra"
+    },
+    {
+        "id": 1116,
+        "topic": "System Design",
+        "question": "What is rate limiting used for?",
+        "options": [
+            "Speed",
+            "Security",
+            "Prevent abuse",
+            "Scaling"
+        ],
+        "answer": "Prevent abuse"
+    },
+    {
+        "id": 1117,
+        "topic": "System Design",
+        "question": "Which stores key-value pairs?",
+        "options": [
+            "SQL",
+            "Redis",
+            "GraphDB",
+            "RDBMS"
+        ],
+        "answer": "Redis"
+    },
+    {
+        "id": 1118,
+        "topic": "System Design",
+        "question": "Which metric measures uptime?",
+        "options": [
+            "Latency",
+            "Availability",
+            "Throughput",
+            "Load"
+        ],
+        "answer": "Availability"
+    },
+    {
+        "id": 1119,
+        "topic": "System Design",
+        "question": "Which architecture is tightly coupled?",
+        "options": [
+            "Microservices",
+            "SOA",
+            "Monolithic",
+            "Event-driven"
+        ],
+        "answer": "Monolithic"
+    },
+    {
+        "id": 1120,
+        "topic": "System Design",
+        "question": "Which improves read performance?",
+        "options": [
+            "Indexing",
+            "Normalization",
+            "Locking",
+            "Constraints"
+        ],
+        "answer": "Indexing"
+    },
+    {
+        "id": 1201,
+        "topic": "English",
+        "question": "Choose correct sentence",
+        "options": [
+            "He don't know",
+            "He doesn't know",
+            "He not know",
+            "He no know"
+        ],
+        "answer": "He doesn't know"
+    },
+    {
+        "id": 1202,
+        "topic": "English",
+        "question": "Synonym of 'Abundant'",
+        "options": [
+            "Scarce",
+            "Plenty",
+            "Rare",
+            "Small"
+        ],
+        "answer": "Plenty"
+    },
+    {
+        "id": 1203,
+        "topic": "English",
+        "question": "Antonym of 'Success'",
+        "options": [
+            "Win",
+            "Achieve",
+            "Failure",
+            "Progress"
+        ],
+        "answer": "Failure"
+    },
+    {
+        "id": 1204,
+        "topic": "English",
+        "question": "Fill blank: She is ___ honest girl",
+        "options": [
+            "a",
+            "an",
+            "the",
+            "no article"
+        ],
+        "answer": "an"
+    },
+    {
+        "id": 1205,
+        "topic": "English",
+        "question": "Correct plural of 'Child'",
+        "options": [
+            "Childs",
+            "Childes",
+            "Children",
+            "Childrens"
+        ],
+        "answer": "Children"
+    },
+    {
+        "id": 1206,
+        "topic": "English",
+        "question": "Choose correct tense: I ___ him yesterday",
+        "options": [
+            "see",
+            "seen",
+            "saw",
+            "seeing"
+        ],
+        "answer": "saw"
+    },
+    {
+        "id": 1207,
+        "topic": "English",
+        "question": "One word: Fear of heights",
+        "options": [
+            "Hydrophobia",
+            "Acrophobia",
+            "Claustrophobia",
+            "Xenophobia"
+        ],
+        "answer": "Acrophobia"
+    },
+    {
+        "id": 1208,
+        "topic": "English",
+        "question": "Meaning of 'Break the ice'",
+        "options": [
+            "Start conversation",
+            "Anger",
+            "Stop talk",
+            "End meeting"
+        ],
+        "answer": "Start conversation"
+    },
+    {
+        "id": 1209,
+        "topic": "English",
+        "question": "Choose correct preposition: Good ___ maths",
+        "options": [
+            "in",
+            "on",
+            "at",
+            "for"
+        ],
+        "answer": "at"
+    },
+    {
+        "id": 1210,
+        "topic": "English",
+        "question": "Synonym of 'Rapid'",
+        "options": [
+            "Slow",
+            "Fast",
+            "Weak",
+            "Late"
+        ],
+        "answer": "Fast"
+    },
+    {
+        "id": 1211,
+        "topic": "English",
+        "question": "Antonym of 'Accept'",
+        "options": [
+            "Agree",
+            "Allow",
+            "Reject",
+            "Permit"
+        ],
+        "answer": "Reject"
+    },
+    {
+        "id": 1212,
+        "topic": "English",
+        "question": "Correct spelling",
+        "options": [
+            "Recieve",
+            "Receive",
+            "Receeve",
+            "Recive"
+        ],
+        "answer": "Receive"
+    },
+    {
+        "id": 1213,
+        "topic": "English",
+        "question": "Fill blank: Neither he ___ I am wrong",
+        "options": [
+            "or",
+            "and",
+            "nor",
+            "but"
+        ],
+        "answer": "nor"
+    },
+    {
+        "id": 1214,
+        "topic": "English",
+        "question": "Choose correct voice",
+        "options": [
+            "He ate apple",
+            "Apple was eaten",
+            "He eats apple",
+            "Apple eat"
+        ],
+        "answer": "Apple was eaten"
+    },
+    {
+        "id": 1215,
+        "topic": "English",
+        "question": "One word: Study of birds",
+        "options": [
+            "Zoology",
+            "Botany",
+            "Ornithology",
+            "Ecology"
+        ],
+        "answer": "Ornithology"
+    },
+    {
+        "id": 1216,
+        "topic": "English",
+        "question": "Choose correct conjunction",
+        "options": [
+            "Although",
+            "Because",
+            "And",
+            "Or"
+        ],
+        "answer": "Although"
+    },
+    {
+        "id": 1217,
+        "topic": "English",
+        "question": "Correct article: ___ honest man",
+        "options": [
+            "a",
+            "an",
+            "the",
+            "no article"
+        ],
+        "answer": "an"
+    },
+    {
+        "id": 1218,
+        "topic": "English",
+        "question": "Synonym of 'Brave'",
+        "options": [
+            "Coward",
+            "Fearful",
+            "Courageous",
+            "Weak"
+        ],
+        "answer": "Courageous"
+    },
+    {
+        "id": 1219,
+        "topic": "English",
+        "question": "Antonym of 'Permanent'",
+        "options": [
+            "Fixed",
+            "Temporary",
+            "Solid",
+            "Strong"
+        ],
+        "answer": "Temporary"
+    },
+    {
+        "id": 1220,
+        "topic": "English",
+        "question": "Choose correct sentence",
+        "options": [
+            "She do work",
+            "She does work",
+            "She done work",
+            "She doing work"
+        ],
+        "answer": "She does work"
     }
 ]
