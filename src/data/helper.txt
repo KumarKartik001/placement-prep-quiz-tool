@@ -1,1 +1,1 @@
-Tip: Jab aap questions.json mein koi code likhein, toh use backticks (`) ke andar daal dena.
+Tip: Jab aap questions.json mein koi code likhein, toh use backticks (`) ke andar daal dena. 
